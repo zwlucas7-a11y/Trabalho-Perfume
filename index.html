@@ -1,48 +1,162 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfumes Elegantes</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="responsive.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>American Psycho</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/animacions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-<header>
-  <h1>Os melhores perfumes para você.</h1>
-</header>
-<section id="home" class="hero">
-  <h2>Descubra fragrâncias exclusivas</h2>
-  <p>Elegância e sofisticação em cada aroma</p>
-</section>
-<section id="produtos" class="produtos">
-  <div class="produto">
-    <img src="./img/81951 1.png" alt="Perfume Sedution">
-    <h3>Homem Sagaz</h3>
-    <p>Sedutor e baladeiro</p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <p>R$ 145,00</p> 
-    <button onclick="comprar('Homem Sagaz')">Comprar</button>
-  </div>
 
-  <div class="produto">
-    <img src="./img/Frame 2.png" alt="Perfume Bleu de Chanel">
-    <h3>Bleu de Chanel</h3>
-    <p>Forte e marcante</p>
-    <p>⭐⭐⭐⭐</p>
-    <p>R$ 750,00</p>
-    <button onclick="comprar('Bleu de Chanel')">Comprar</button>
-  </div>
+    <div class="cursor"></div>
 
-  <div class="produto">
-    <img src="./img/Frame 3.png" alt="Sospiro Vibrato">
-    <h3>Sospiro Vibrato</h3>
-    <p>Refrescante e leve</p>
-    <p>⭐⭐⭐⭐⭐</p>
-    <p>R$ 1450,00</p>
-    <button onclick="comprar('Sospiro Vibrato')">Comprar</button>
-  </div>
-</section>
-<script src="./script.js"></script>
+    <header class="header">
+
+        <div class="logo">
+            <h1>AMERICAN PSYCHO</h1>
+        </div>
+
+        <nav class="menu">
+
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#mind">Mente</a>
+            <a href="#gallery">Galeria</a>
+
+        </nav>
+
+    </header>
+
+    <section class="hero" id="home">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="mini-title">
+                Patrick Bateman
+            </span>
+
+            <h2>
+                Elegância<br>
+                Luxo<br>
+                Violência
+            </h2>
+
+            <p>
+                Um dos thrillers psicológicos mais icônicos do cinema.
+                Uma mistura brutal entre perfeccionismo, insanidade e luxo.
+            </p>
+
+            <div class="buttons">
+
+                <button class="main-btn">
+                    Explorar
+                </button>
+
+                <button class="second-btn">
+                    Trailer
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-image"></div>
+
+        <div class="about-content">
+
+            <span>THRILLER PSICOLÓGICO</span>
+
+            <h2>
+                A mente de
+                Patrick Bateman
+            </h2>
+
+            <p>
+                Durante o dia, Patrick Bateman é um executivo rico
+                e sofisticado de Wall Street.
+                Durante a noite, revela sua verdadeira personalidade:
+                fria, vazia e completamente perturbada.
+            </p>
+
+            <div class="stats">
+
+                <div class="box">
+                    <h3>2000</h3>
+                    <p>Lançamento</p>
+                </div>
+
+                <div class="box">
+                    <h3>Bale</h3>
+                    <p>Performance</p>
+                </div>
+
+                <div class="box">
+                    <h3>Cult</h3>
+                    <p>Clássico</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="mind" id="mind">
+
+        <div class="mind-content">
+
+            <h2>
+                “I simply am not there.”
+            </h2>
+
+            <p>
+                O filme mistura realidade, ego e insanidade
+                em uma experiência desconfortável e elegante.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="gallery" id="gallery">
+
+        <div class="card card1"></div>
+        <div class="card card2"></div>
+        <div class="card card3"></div>
+        <div class="card card4"></div>
+
+    </section>
+
+    <footer class="footer">
+
+        <h2>AMERICAN PSYCHO</h2>
+
+        <p>
+            Luxury • Madness • Violence
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

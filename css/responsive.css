@@ -1,0 +1,113 @@
+@media(max-width:1000px) {
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+        padding: 140px 40px 60px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-content p {
+        width: 100%;
+    }
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .stats {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media(max-width:768px) {
+
+    .header {
+        padding: 0 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .hero {
+        padding: 120px 20px 40px;
+    }
+
+    .hero-content h2 {
+        font-size: 52px;
+        line-height: 58px;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
+
+    .buttons button {
+        width: 100%;
+    }
+
+    .about {
+        padding: 80px 20px;
+    }
+
+    .about-image {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .mind-content h2 {
+        font-size: 42px;
+    }
+
+    .gallery {
+        padding: 40px 20px;
+    }
+
+}
+
+@media(max-width:500px) {
+
+    .logo h1 {
+        font-size: 18px;
+    }
+
+    .hero-content h2 {
+        font-size: 38px;
+        line-height: 45px;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .about-content h2 {
+        font-size: 38px;
+    }
+
+    .mind-content h2 {
+        font-size: 30px;
+    }
+
+    .card {
+        height: 300px;
+    }
+
+}
